@@ -132,7 +132,7 @@ st.markdown("""
 # Header with Logo
 col1, col2 = st.columns([1, 5])
 with col1:
-    logo_path = r"C:\Users\rnish\Desktop\Arpita\Logo.png"
+    logo_path = r"Logo.png"
     if os.path.exists(logo_path):
         logo = Image.open(logo_path)
         st.image(logo, width=80, use_container_width=False)
